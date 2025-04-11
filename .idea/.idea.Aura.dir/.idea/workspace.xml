@@ -7,8 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e48ffda-5890-465a-afae-f2610a5ebefd" name="Changes" comment="">
+    <list default="true" id="8e48ffda-5890-465a-afae-f2610a5ebefd" name="Changes" comment="Create basic player movement mappings.&#10;Create Player Movement Controller class">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Aura.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Aura.Build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/Player/AuraPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/Player/AuraPlayerController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/Player/AuraPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/Player/AuraPlayerController.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +149,7 @@
       <workItem from="1743972729687" duration="3024000" />
       <workItem from="1744236660404" duration="4348000" />
       <workItem from="1744300754532" duration="801000" />
-      <workItem from="1744372648347" duration="623000" />
+      <workItem from="1744372648347" duration="2228000" />
     </task>
     <task id="LOCAL-00001" summary="Add player and enemy classes">
       <option name="closed" value="true" />
@@ -172,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744303817465</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Create basic player movement mappings.&#10;Create Player Movement Controller class">
+      <option name="closed" value="true" />
+      <created>1744374744710</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744374744710</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +207,7 @@
     <MESSAGE value="Add player and enemy classes" />
     <MESSAGE value="Add Aura and Spear Goblin SKMs" />
     <MESSAGE value="Set Aura and Goblin Spear/Slingshot animations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set Aura and Goblin Spear/Slingshot animations" />
+    <MESSAGE value="Create basic player movement mappings.&#10;Create Player Movement Controller class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create basic player movement mappings.&#10;Create Player Movement Controller class" />
   </component>
 </project>
