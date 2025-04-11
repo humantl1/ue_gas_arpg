@@ -7,9 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e48ffda-5890-465a-afae-f2610a5ebefd" name="Changes" comment="Create basic player movement mappings.&#10;Create Player Movement Controller class">
+    <list default="true" id="8e48ffda-5890-465a-afae-f2610a5ebefd" name="Changes" comment="Setup basic Aura Player Controller">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Aura.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Aura.Build.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Aura/Private/Player/AuraPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/Player/AuraPlayerController.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Aura/Public/Player/AuraPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/Player/AuraPlayerController.h" afterDir="false" />
     </list>
@@ -36,6 +35,16 @@
     &quot;accountId&quot;: &quot;7b856f91-7d6b-4653-807e-dff9e14cfc50&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Unreal/Projects/Aura/Source/Aura/Private/Player/AuraPlayerController.cpp" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -149,7 +158,7 @@
       <workItem from="1743972729687" duration="3024000" />
       <workItem from="1744236660404" duration="4348000" />
       <workItem from="1744300754532" duration="801000" />
-      <workItem from="1744372648347" duration="2228000" />
+      <workItem from="1744372648347" duration="5077000" />
     </task>
     <task id="LOCAL-00001" summary="Add player and enemy classes">
       <option name="closed" value="true" />
@@ -183,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744374744710</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Setup basic Aura Player Controller">
+      <option name="closed" value="true" />
+      <created>1744375567740</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744375567740</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +225,7 @@
     <MESSAGE value="Add Aura and Spear Goblin SKMs" />
     <MESSAGE value="Set Aura and Goblin Spear/Slingshot animations" />
     <MESSAGE value="Create basic player movement mappings.&#10;Create Player Movement Controller class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create basic player movement mappings.&#10;Create Player Movement Controller class" />
+    <MESSAGE value="Setup basic Aura Player Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup basic Aura Player Controller" />
   </component>
 </project>
