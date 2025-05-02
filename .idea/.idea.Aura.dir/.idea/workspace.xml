@@ -8,11 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e48ffda-5890-465a-afae-f2610a5ebefd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Source/Aura/Private/UI/Widget/AuraUserWidget.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Aura/Private/UI/WidgetController/AuraWidgetController.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Aura/Public/UI/Widget/AuraUserWidget.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Aura/Public/UI/WidgetController/AuraWidgetController.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/AuraAttributeSet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/AuraAttributeSet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/Actor/AuraEffectActor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/Actor/AuraEffectActor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/AbilitySystem/AuraAttributeSet.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/AbilitySystem/AuraAttributeSet.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/Actor/AuraEffectActor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/Actor/AuraEffectActor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aura.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Aura.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +43,16 @@
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Editor/DetailCustomizations/Private/AttenuationSettingsCustomizations.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Core/Public/Delegates/DelegateCombinations.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Core/Public/Stats/Stats2.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/CoreUObject/Public/UObject/ScriptInterface.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Classes/Components/PrimitiveComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Classes/GameFramework/Character.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/GameplayTags/Classes/GameplayTagsManager.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/GameplayTags/Private/GameplayTagsManager.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.4/Engine/Source/ThirdParty/FBX/2020.2/include/fbxsdk/core/fbxplugincontainer.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Unreal/Projects/Aura/Source/Aura/Private/AbilitySystem/AuraAttributeSet.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Unreal/Projects/Aura/Source/Aura/Private/Actor/AuraEffectActor.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Unreal/Projects/Aura/Source/Aura/Public/AbilitySystem/AuraAttributeSet.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Unreal/Projects/Aura/Source/Aura/Public/Actor/AuraEffectActor.h" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -176,6 +182,9 @@
       <workItem from="1745066861417" duration="3898000" />
       <workItem from="1745235822161" duration="3745000" />
       <workItem from="1745275961692" duration="1912000" />
+      <workItem from="1745350108944" duration="2119000" />
+      <workItem from="1746015790009" duration="409000" />
+      <workItem from="1746186791240" duration="805000" />
     </task>
     <task id="LOCAL-00001" summary="Add player and enemy classes">
       <option name="closed" value="true" />
@@ -273,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745236705839</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Setup Effect Actor">
+      <option name="closed" value="true" />
+      <created>1745352226233</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1745352226233</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +323,8 @@
     <MESSAGE value="Add base ability system componenet infrastructure" />
     <MESSAGE value="Set Aura and Enemey replication modes" />
     <MESSAGE value="Initialize Ability System Component and setup Attribute Set" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialize Ability System Component and setup Attribute Set" />
+    <MESSAGE value="Setup Effect Actor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup Effect Actor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -327,6 +345,11 @@
           <url>file://$PROJECT_DIR$/Source/Aura/Public/Character/AuraCharacterBase.h</url>
           <line>4</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Source/Aura/Public/UI/Widget/AuraUserWidget.h</url>
+          <line>4</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
